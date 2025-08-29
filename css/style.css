@@ -103,7 +103,7 @@ body {
   padding-left: 5px;
   padding-top: 3px;
   transition: 0.4s;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 .socialIcon a:hover {
   color: #fd6f00;
@@ -120,7 +120,6 @@ body {
   background: rgba(255, 255, 255, 4%);
   border-radius: 8px;
   padding: 24px;
-  width: 90%;
 }
 .counter {
   border-right: 2px solid #959595;
@@ -143,8 +142,13 @@ body {
   letter-spacing: 3%;
 }
 .bannerImg img {
+  filter: grayscale(100%);
   margin-top: -115px;
   margin-left: 25px;
+  transition: 0.4s;
+}
+.bannerImg img:hover {
+  filter: grayscale(0%);
 }
 /* Banner Part CSS End */
 
@@ -197,3 +201,185 @@ body {
   margin-top: 30px;
 }
 /* Service Part CSS End */
+
+/* About Me Part CSS Start */
+#aboutmePart {
+  background: #121212;
+  padding-bottom: 150px;
+}
+.aboutLeftImg {
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+.aboutLeftImg:hover {
+  filter: grayscale(0%);
+}
+.aboutRightText {
+  padding-top: 100px;
+}
+.aboutRightText p {
+  color: #959595;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 190%;
+  text-align: justify;
+  padding-bottom: 40px;
+  width: 627px;
+}
+.aboutmeCounterPart {
+  padding-top: 100px;
+}
+.aboutmeCounter h3 {
+  background: linear-gradient(90deg, #984300 0%, #fd6f00 46%, #ca5900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 24px;
+  padding-bottom: 15px;
+}
+.aboutmeCounter p {
+  color: #959595;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* About Me Part CSS End */
+
+/* Portfolio Part CSS Start */
+#portfolioSection {
+  background: #121212;
+  padding-bottom: 150px;
+}
+.portfolioSectinPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.sectionOne h3{
+  color: #C6C6C6;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 3%;
+  padding: 14px 40px;
+ background: rgba(255, 255, 255, 4%);
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 4%);
+  transition: .4s;
+}
+.sectionOne h3:hover{
+background: #fd6f00;
+color: #fff;
+}
+.portfoliosectionImg{
+  padding-bottom: 30px;
+}
+.portfoliosectionimgText{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: rgba(255, 255, 255, 8%);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.portfoliosectionimgText h3{
+color: #C6C6C6;
+font-size: 16px;
+font-weight: 700;
+line-height: 160%;
+letter-spacing: 3%;
+}
+.portfoliosectionimgText h4{
+color: #959595;
+font-size: 16px;
+font-weight: 700;
+line-height: 160%;
+letter-spacing: 3%;
+}
+/* Portfolio Part CSS End */
+
+/* Contact Form Part CSS Start */
+#contactPart{
+  background: #121212;
+  padding-bottom: 150px;
+}
+.customContact{
+  background: rgba(255, 255, 255, 4%);
+  padding: 14px 24px;
+  width: 48%;
+  border: none;
+  margin-top: 25px;
+  outline: none;
+}
+.customContact:focus{
+  background: transparent;
+}
+.contactFlex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.customContact::placeholder{
+  color: #959595;
+}
+/* Contact Form Part CSS End */
+/* Footer Part CSS Start */
+#footerPart{
+padding-top: 40px;
+padding-bottom: 24px;
+background: #1b1b1b
+}
+.footerLogoPart{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.footerLinkPart{
+  text-align: center;
+}
+.footerSocial{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.footerContact{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.common{
+  display: flex;
+  color: #959595;
+  align-items: center;
+}
+.common i{
+  margin-right: 10px;
+}
+.common p{
+  color: #959595;
+  font-size: 20px;
+  font-weight: 700;
+}
+.email{
+  margin-right: 30px;
+}
+.footerprivacy{
+  text-align: center;
+}
+
+.footerprivacy p{
+  display: inline-block;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  padding: 16px 120px 0 120px;
+  border-top: 2px solid #959595;
+}
+/* Footer Part CSS End */
+
