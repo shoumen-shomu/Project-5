@@ -317,6 +317,9 @@ letter-spacing: 3%;
   margin-top: 25px;
   outline: none;
 }
+.customSelect{
+  color: #959595;
+}
 .customContact:focus{
   background: transparent;
 }
@@ -328,6 +331,7 @@ letter-spacing: 3%;
 .customContact::placeholder{
   color: #959595;
 }
+
 /* Contact Form Part CSS End */
 /* Footer Part CSS Start */
 #footerPart{
@@ -339,8 +343,12 @@ background: #1b1b1b
   text-align: center;
   padding-bottom: 50px;
 }
-.footerLinkPart{
+/* .footerLinkPart{
   text-align: center;
+} */
+.footerLink ul{
+  display: flex;
+
 }
 .footerSocial{
   display: flex;
